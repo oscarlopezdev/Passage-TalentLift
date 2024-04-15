@@ -1,0 +1,86 @@
+  /* General */
+  .bold{
+    font-weight: bold;
+}
+html {
+    background: #ededed;
+}
+
+/* Text Typing animation */
+.typing-game {
+    padding-top: 70px;
+    padding-left: 20%;
+}
+
+.text-zone {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#text-answer,
+#text-challenge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 40px;
+}
+
+#text-answer {
+    color: #b30000
+}
+
+#text-challenge {
+    color: rgba(0, 0, 255, 0.5);
+    /* Color de fondo del segundo div */
+}
+
+/* Warnings */
+#warning-message{
+    color: red;
+}
+
+/* Bottoms */
+#clear-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#clear-button:hover {
+    background-color: #45a049;
+    /* Darker green */
+}
+
+/* Level info */
+#level-circle {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    /* Make it a circle */
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 125px;
+    /* Center text vertically */
+}
+
+#level-circle {
+/* Otros estilos */
+position: fixed;
+top: 0;
+right: 0;
+margin: 20px; /* Añade un margen para separar del borde */
+}
+
+
+/* Modal */

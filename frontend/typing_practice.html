@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Practice</title>
+    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="typing_practice.css">
+</head>
+
+<style>
+    
+  
+</style>
+
+
+<body>
+    <div class="typing-game">
+        <div class="text-zone">
+
+            <div id="text-challenge"></div>
+            <div id="text-answer"></div>
+        </div>
+
+        <div>Metric: Speed <span class="bold"><span  id="words-per-minute">0</span>wpm</span></div>
+        <div id="warning-message"></div>
+        <div id="clear-button">Restart</div>
+        <div id="level-circle">Level: <span class="bold" id="current-level">?</span></div>
+    </div>
+
+    
+    <!-- Modal -->
+    <div style="display: none;" id="info-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p class="text">Read and write as fast as you can</p>
+            <div style="position:relative;">
+            </div>                   
+            <img src="jim.gif" alt="GIF">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="modal.js"></script>
+</body>
+
+
+</html>
