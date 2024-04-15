@@ -15,5 +15,5 @@ python -m unittest discover backend/tests
 
 
 ## Frontend
-You can access the following Link:<br>
+You can access the following Link: https://passage-talent-lift.vercel.app/ <br>
 Or locally you can pull the repo and open the `frontend/index.html` in your browser.

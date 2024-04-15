@@ -12,7 +12,7 @@ if(localStorage.getItem('level')) {
 }
 
 const challenges = [
-    "mr. dursley was",
+    "the great dursley was",
     "the director of a firm called grunnings, which made",
     "drills. he was a big, beefy man with hardly any neck.",
     "which came in very useful as she spent so much of her time",
