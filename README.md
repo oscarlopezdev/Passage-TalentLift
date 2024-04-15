@@ -8,12 +8,12 @@ The file `backend/good_square_counter.py` contains a method `count_good_squares`
 Python >= 3.8.9
 
 ### Unit tests
-Run all the test, execute the folowing in the terminal:
+Run all the tests, execute the following in the terminal:
 ```
 python -m unittest discover backend/tests
 ```
 
 
 ## Frontend
-You can access the folowing Link:
+You can access the following Link:<br>
 Or locally you can pull the repo and open the `frontend/index.html` in your browser.
